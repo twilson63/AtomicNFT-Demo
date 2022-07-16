@@ -1,4 +1,4 @@
-import App from './App.svelte'
+import App from './Nft.svelte'
 
 new App({
   target: document.body

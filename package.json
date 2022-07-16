@@ -12,9 +12,11 @@
   },
   "dependencies": {
     "arweave": "^1.11.4",
+    "crocks": "^0.12.4",
+    "ramda": "^0.28.0",
     "warp-contracts": "^1.1.10"
   },
   "scripts": {
-    "build": "rollup -c"  
+    "build": "rollup -c"
   }
 }
