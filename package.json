@@ -1,0 +1,20 @@
+{
+  "name": "warp-bundlr-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.76.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.49.0"
+  },
+  "dependencies": {
+    "arweave": "^1.11.4",
+    "warp-contracts": "^1.1.10"
+  },
+  "scripts": {
+    "build": "rollup -c"  
+  }
+}
